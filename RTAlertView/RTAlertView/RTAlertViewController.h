@@ -20,6 +20,7 @@
 - (void)show;
 - (void)dismissWithClickedButtonIndex:(NSInteger)buttonIndex
                              animated:(BOOL)animated;
+- (void)setupLabels;
 
 @property (strong, nonatomic) RTAlertView *alertView;
 @property (weak, nonatomic) id<RTAlertViewDelegate> delegate;

@@ -237,6 +237,7 @@
 - (void)setMessage:(NSString *)message
 {
     self.alertViewController.alertViewMessage = message;
+    [self.alertViewController setupLabels];
 }
 
 
