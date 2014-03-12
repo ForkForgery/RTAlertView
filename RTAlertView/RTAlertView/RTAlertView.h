@@ -104,4 +104,5 @@ typedef enum {
 @property (strong, nonatomic) NSString *textField0PlaceholderText;
 @property (strong, nonatomic) NSString *textField1PlaceholderText;
 
+@property (nonatomic) NSInteger tag;
 @end
